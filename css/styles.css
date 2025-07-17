@@ -1068,10 +1068,12 @@ input.visually-hidden:checked ~ label .checkbox-icon {
 }
 
 .footer .container{
-  flex-direction: row;
-  gap:24px;
-  flex-wrap: wrap;
-  justify-content: center;
+   width: 584px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    align-items: baseline;
+    justify-content: flex-start;
 }
 
 .subscribe-box{
@@ -1329,7 +1331,10 @@ section {
 }
 
 .footer .container {
-  align-items: baseline;
+  gap:24px;
+  justify-content: center;
+  width: auto;
+
 }
 
 .footer-wraper {
