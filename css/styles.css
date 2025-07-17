@@ -1279,11 +1279,13 @@ input.visually-hidden:checked ~ label .checkbox-icon {
   .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
+    margin: 0;
   }
 
   .advantages-text {
     font-weight: 400;
     font-size: 16px;
+    margin:0;
   }
   .sociallinks-link-block {
     display: flex;
