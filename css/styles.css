@@ -1367,3 +1367,23 @@ section {
     url(../images/bckgrnd-mobile-x2.jpg);
 }
 }
+
+@media screen and (min-width: 768px) and (max-width:1157px) and (min-resolution: 192dpi){
+  .hero{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/herobaner-tablet@x2.jpg);
+  }
+}
+
+@media  and (min-width: 1158px) and(min-resolution: 192dpi) {
+  .hero{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/herobaner@x2.jpg);
+  }
+}
