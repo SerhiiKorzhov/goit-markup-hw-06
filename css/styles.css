@@ -143,6 +143,11 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-mobile-menu-close:hover,
+.modal-mobile-menu-close:focus{
+  background-color: #404bbf;
+}
+
 .modal-nav {
   display: flex;
   flex-direction: column;
@@ -180,7 +185,7 @@ img {
 }
 
 .nav-link-modal:hover,
-.nav-link-modal:focus {
+.nav-link-modal:focus{
   color: #404bbf;
 }
 

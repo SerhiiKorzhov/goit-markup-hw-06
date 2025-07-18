@@ -1,15 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const menuMobile = document.getElementById('menu-mobile');
-  const openBtn = document.getElementById('open-menu-btn');
-  const closeBtn = document.getElementById('close-menu-btn');
+  const openMenuBtn = document.querySelector('.menu-mobile-btn');
+  const closeMenuBtn = document.querySelector('.modal-mobile-menu-close');
+  const mobileMenu = document.querySelector('.modal-mobile-menu');
 
-  if (menuMobile && openBtn && closeBtn) {
-    openBtn.addEventListener('click', () => {
-      menuMobile.classList.add('is-open'); // показываем меню
-    });
-
-    closeBtn.addEventListener('click', () => {
-      menuMobile.classList.remove('is-open'); // скрываем меню
-    });
+  if (!openMenuBtn || !closeMenuBtn || !mobileMenu) {
+    console.warn('Один из элементов меню не найден!');
+    return;
   }
+
+  openMenuBtn.addEventListener('click', () => {
+    mobileMenu.classList.add('is-open');
+  });
+
+  closeMenuBtn.addEventListener('click', () => {
+    mobileMenu.classList.remove('is-open');
+  });
 });
