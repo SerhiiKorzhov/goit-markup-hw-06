@@ -1063,8 +1063,8 @@ input.visually-hidden:checked ~ label .checkbox-icon {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
-    margin-bottom: 36px;
     margin: 0;
+    margin-bottom: 36px;
   }
 
   .advantages{
